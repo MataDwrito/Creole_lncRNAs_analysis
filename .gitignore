@@ -1,0 +1,87 @@
+# =====================
+# DATOS CRUDOS (FASTQ, BAM, SAM, etc.)
+# =====================
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.sam
+*.bai
+*.cram
+
+# =====================
+# ARCHIVOS DE REFERENCIA (si son muy grandes)
+# =====================
+*.fa
+*.fasta
+*.fna
+*.ffn
+*.faa
+*.fas
+*.fa.gz
+*.fasta.gz
+*.dict
+*.fai
+
+# Anotaciones genómicas
+*.gtf
+*.gff
+*.gff3
+*.gff.gz
+
+# Variantes
+*.vcf
+*.vcf.gz
+*.bcf
+
+# =====================
+# RESULTADOS INTERMEDIOS
+# =====================
+*.bed
+*.bedGraph
+*.wig
+*.bw
+*.counts
+*.tsv
+*.tmp
+*.log
+*.out
+*.err
+
+# =====================
+# PYTHON
+# =====================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =====================
+# R
+# =====================
+*.Rproj.user
+*.Rhistory
+*.RData
+*.Ruserdata
+
+# =====================
+# OTROS ARCHIVOS TEMPORALES
+# =====================
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# =====================
+# SISTEMA OPERATIVO
+# =====================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =====================
+# CARPETAS DE TRABAJO
+# =====================
+
+results/intermediate/

@@ -1,0 +1,19 @@
+name: lncRNA_env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pandas
+  - numpy
+  - matplotlib
+  - networkx
+  - fastqc
+  - trimmomatic
+  - tophat
+  - cufflinks
+  - samtools
+  - pip:
+      - pyWGCNA==2.0.0
